@@ -6,10 +6,10 @@
 name: Mark stale issues and pull requests
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '11 10 * * *'
+    - cron: '20 3 * * *'
       timezone: 'Asia/Bangkok'
+  workflow_dispatch:
 
 jobs:
   stale:
